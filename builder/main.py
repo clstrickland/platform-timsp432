@@ -30,7 +30,7 @@ env.Replace(
 )
 
 env.Append(
-    ASFLAGS=["-x", "assembler-with-cpp"],
+    # ASFLAGS=["-x", "assembler-with-cpp"],
 
     CCFLAGS=[
         "-Os",
