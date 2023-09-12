@@ -9,7 +9,8 @@ board = env.BoardConfig()
 
 env.Replace(
     AR="arm-none-eabi-ar",
-    AS="arm-none-eabi-as",
+    # AS="arm-none-eabi-as",
+    AS="arm-none-eabi-gcc",
     CC="arm-none-eabi-gcc",
     CXX="arm-none-eabi-g++",
     GDB="arm-none-eabi-gdb",
